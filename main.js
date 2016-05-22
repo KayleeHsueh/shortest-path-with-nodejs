@@ -1,7 +1,7 @@
 const Graph = require('./graph.js');
-const readline = require('readline');
+const Readline = require('readline');
 
-const rl = readline.createInterface({
+const rl = Readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
